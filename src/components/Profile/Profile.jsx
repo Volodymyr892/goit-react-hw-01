@@ -1,10 +1,10 @@
 import css from './Profile.module.css'
-export default function Profile({name,tag, location, stats  }) {
+export default function Profile({name,tag, location, stats, image }) {
     return (
         <div className={css.profile}>
         <div className={css.description}>
             <img
-            src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
+            src={image}
             alt="User avatar"
             className={css.avatar}
             />
