@@ -1,0 +1,40 @@
+.friendItem {
+    /* display: flex; */
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  /* .friendItem.online {
+    background-color: #e0ffe0;
+  }
+  
+  .friendItem.offline {
+    background-color: #ffe0e0;
+  } */
+  
+  .avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: auto;
+  }
+  
+  .status {
+    font-size: 14px;
+    color: #777;
+  }
+  .status.online {
+    color: green; /* Колір тексту для online */
+  }
+  
+  .status.offline {
+    color: red; /* Колір тексту для offline */
+  }

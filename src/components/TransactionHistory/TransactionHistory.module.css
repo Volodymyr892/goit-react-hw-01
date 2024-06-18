@@ -1,0 +1,27 @@
+/* TransactionHistory.module.css */
+.table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .headerRow {
+    background-color: black;
+    color: white;
+  }
+  
+  .row {
+    background-color: white;
+  }
+  
+  .alternateRow {
+    background-color: #f2f2f2;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
